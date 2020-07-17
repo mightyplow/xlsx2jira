@@ -1,5 +1,5 @@
 {
-  "name": "xlsx2jira",
+  "name": "@mightyplow/xlsx2jira",
   "bin": {
     "xlsx2jira": "./index.js"
   },
