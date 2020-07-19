@@ -6,14 +6,22 @@
   "version": "1.0.0",
   "description": "A command line tool which converts an xlsx file into a Jira table and prints the output.",
   "main": "index.js",
-  "keywords": ["jira", "tables", "xlsx"],
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "jira",
+    "tables",
+    "xlsx",
+    "excel"
+  ],
   "author": "mightyplow@gmail.com",
   "license": "ISC",
   "dependencies": {
     "meow": "^7.0.1",
     "read-excel-file": "^4.0.6"
   },
-  "engines": {
-    "node": ">8"
+  "devDependencies": {
+    "mocha": "^8.0.1"
   }
 }
