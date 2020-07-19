@@ -1,10 +1,10 @@
 {
   "name": "@mightyplow/xlsx2jira",
   "bin": {
-    "xlsx2jira": "./index.js"
+    "xlsx2jira": "cli.js"
   },
-  "version": "1.0.0",
-  "description": "A command line tool which converts an xlsx file into a Jira table and prints the output.",
+  "version": "1.1.0",
+  "description": "A tool which converts an xlsx file into a Jira table.",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
