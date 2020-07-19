@@ -21,6 +21,7 @@
     "excel"
   ],
   "author": "mightyplow@gmail.com",
+  "sideEffects": false,
   "license": "ISC",
   "dependencies": {
     "meow": "^7.0.1",
