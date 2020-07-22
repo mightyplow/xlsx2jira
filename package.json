@@ -5,6 +5,10 @@
   },
   "version": "1.1.2",
   "description": "A tool which converts an xlsx file into a Jira table.",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/mightyplow/xlsx2jira"
+  },
   "main": "index.js",
   "scripts": {
     "test": "mocha"
